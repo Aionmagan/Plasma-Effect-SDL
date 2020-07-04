@@ -69,7 +69,7 @@ int main(int argc, char **argv)
 				//ploting pixel
 				pixels[x + surface->w * y] = SDL_MapRGB(surface->format, 10 * (sin(value * PI)), 
 				                                                         10 * (cos(value * PI)),
-																	     0);
+						                                          0);
 			}
 		}
 		
